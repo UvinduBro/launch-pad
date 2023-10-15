@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch Mini-Site</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffe6e6; /* light pink background */
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        #logo {
+            max-width: 455px;
+            max-height: 100%;
+            margin: auto;
+            display: block;
+        }
+
+        #launchButton {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            background-color: #ff69b4; /* pink background */
+            color: #fff; /* white text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <img id="logo" src="https://diriyawanitha.org/wp-content/uploads/2023/10/diriya-wanitha-full-logo.png" alt="Your Logo">
+    <button id="launchButton" onclick="launch()">Launch</button>
+</div>
+
+<script>
+    function launch() {
+        window.location.href = 'launch.html';
+    }
+</script>
+
+</body>
+</html>
